@@ -10,6 +10,8 @@ Docs: https://docs.openclaw.ai
 
 ### Fixes
 
+- Control UI: include base path in default WebSocket URL for reverse proxy support. (#6247)
+
 - Auto-reply: avoid referencing workspace files in /new greeting prompt. (#5706) Thanks @bravostation.
 - Process: resolve Windows `spawn()` failures for npm-family CLIs by appending `.cmd` when needed. (#5815) Thanks @thejhinvirtuoso.
 - Docs: update MiniMax OAuth setup commands; Extensions: use OpenClaw plugin SDK for MiniMax OAuth. (#5402) Thanks @Maosghoul.
